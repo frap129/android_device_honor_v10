@@ -1,0 +1,15 @@
+/ramdisk		emmc		/dev/block/platform/ff3c0000.ufs/by-name/ramdisk_a		flags=display="ramdisk";backup=1;flashimg
+/kernel         emmc        /dev/block/platform/ff3c0000.ufs/by-name/kernel_a       flags=display="kernel";backup=1;flashimg
+/cache		ext4		/dev/block/platform/ff3c0000.ufs/by-name/cache		flags=display="cache";settingsstorage;backup=1;flashimg
+/cust		ext4		/dev/block/platform/ff3c0000.ufs/by-name/cust_a		flags=display="cust";backup=1;flashimg
+/data		f2fs		/dev/block/platform/ff3c0000.ufs/by-name/userdata	flags=display="data";backup=1;flashimg
+/misc		emmc		/dev/block/platform/ff3c0000.ufs/by-name/misc
+/modem_secure	ext4		/dev/block/platform/ff3c0000.ufs/by-name/modem_secure	flags=display="modem_secure";backup=1
+/oeminfo        emmc		/dev/block/platform/ff3c0000.ufs/by-name/oeminfo	flags=display="oeminfo";backup=1;flashimg
+/product	ext4		/dev/block/platform/ff3c0000.ufs/by-name/product_a	flags=display="product";backup=1;wipeingui;flashimg
+/recovery      emmc		/dev/block/platform/ff3c0000.ufs/by-name/recovery_ramdisk_a	flags=display="recovery";backup=1;flashimg
+/splash2	ext4		/dev/block/platform/ff3c0000.ufs/by-name/splash2	flags=display="splash2";backup=1
+/system		ext4		/dev/block/platform/ff3c0000.ufs/by-name/system_a	flags=display="system";backup=1;flashimg
+/usb-otg	auto		/dev/block/sde1         /dev/block/sde			flags=display="USB OTG";storage;wipeingui;removable;backup=0
+/vendor		ext4		/dev/block/platform/ff3c0000.ufs/by-name/vendor_a	flags=display="vendor";backup=1;wipeingui;flashimg
+/version	ext4		/dev/block/platform/ff3c0000.ufs/by-name/version_a	flags=display="version";backup=1;flashimg
