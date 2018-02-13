@@ -31,12 +31,12 @@ PRODUCT_PACKAGES += \
     charger
 
 PRODUCT_COPY_FILES += \
-    device/huawei/kirin970/Image:Image \
-    device/huawei/kirin970/recovery.fstab:recovery/root/etc/recovery.fstab \
-    device/huawei/kirin970/recovery.fstab:recovery/root/etc/twrp.fstab 
+    device/honor/kirin970/Image.gz:Image.gz \
+    device/honor/kirin970/recovery.fstab:recovery/root/etc/recovery.fstab \
+    device/honor/kirin970/recovery.fstab:recovery/root/etc/twrp.fstab 
 
 PRODUCT_NAME := omni_kirin970
 PRODUCT_DEVICE := kirin970
-PRODUCT_BRAND := Huawei
+PRODUCT_BRAND := Honor
 PRODUCT_MODEL := kirin970
-PRODUCT_MANUFACTURER := Huawei
+PRODUCT_MANUFACTURER := Honor
